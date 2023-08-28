@@ -19,11 +19,12 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 
 print("Starting...")
 
-APP_ID = config("APP_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-SESSION = config("SESSION")
-FROM_ = config("FROM_CHANNEL")
-TO_ = config("TO_CHANNEL")
+APP_ID = 27048557
+API_HASH = "dbf9db84b9e32cbf6fd0f8e79ac27230"
+SESSION = "1BVtsOHgBu1tUjoiG5p9av5paFHhY0YNS8YtVvybHUNmo7bmtSXyDWE8FJB14s5uaV16L4H1ee_Y8MDLeZW2UPYLiEsvlbL6DSTtfS8gbh_HyMBh4SjhDFuHkRjcPhIAPvmvwvb87CJ1zpGeF7HshtAIj-adK3sU_vhPa7-3enV_f6TKZlDi02oVMDEJsxVyjQKG-zhuyTff386J-YMJWnZLnqhk9l1SXxyIRUbOU2iCLd7s8LZ4gdtVL0aWQerVLfJS0HMNlmrok-RQUp2KkZWb6JVW96LVw2ziiD21yq71G4sWixCbWAnPnQoReL176F6jsKXNiJ4NfiNyTh0lVkaVip8KVaF8="
+FROM_ = "-1001710117697"
+TO_ = "-1001903674225"
+
 
 FROM = [int(i) for i in FROM_.split()]
 TO = [int(i) for i in TO_.split()]
